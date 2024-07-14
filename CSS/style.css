@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url(TSK.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 100px;
+    border-radius: 50%;
+}
+
+#title{
+    color: lightblue;
+    font-weight: 700;
+    margin: -27px 0 0 140px;
+}
+.mists{
+    display: flex;
+    float:right;
+    list-style: none;
+    margin: -29px 24px 0 0;
+}
+
+.mists li{
+    padding: 10px;
+    color: white;
+}
+
+.desc{
+    text-align: center;
+    font-size: 64px;
+    color: antiquewhite;
+}
+
+button{
+    color: midnightblue;
+    background-color: mediumturquoise;
+    border: none;
+    height: 60px;
+    width: 180px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 0 0 0 34rem;
+}
+
+button:hover{
+color: purple;
+background-color: rgba(234, 122, 122, 0);
+}
